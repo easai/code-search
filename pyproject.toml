@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "code-search"
+version = "0.1.0"
+description = ""
+authors = ["easai <aksarih@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+tailwindcss = "^0.0.1"
+flask = "^3.1.1"
+requests = "^2.32.4"
+dotenv = "^0.9.9"
+nltk = "^3.9.1"
+yake = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
